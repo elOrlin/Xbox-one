@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'menu';
+  src:
+    url('fonts/menu.ttf?fhrx96') format('truetype'),
+    url('fonts/menu.woff?fhrx96') format('woff'),
+    url('fonts/menu.svg?fhrx96#menu') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon- {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'menu' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home3icon-:before {
+  content: "\e900";
+}
+.icon-phoneicon-:before {
+  content: "\e901";
+}
+.icon-envelopicon-:before {
+  content: "\e902";
+}
+.icon-rocketicon-:before {
+  content: "\e903";
+}
+.icon-menuicon-:before {
+  content: "\e904";
+}
+.icon-earthicon-:before {
+  content: "\e905";
+}
+.icon-crossicon-:before {
+  content: "\e906";
+}
